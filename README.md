@@ -15,6 +15,15 @@ The page will reload if you make edits.
 
 Will need to create own on [Google Firebase](https://firebase.google.com/) and add a File called axios.js (under a newly created Folder in src)
 
+```
+src
+└───assets
+│  	└─── ...
+└───axios
+│   └───axios.js
+│ 
+└─── ...
+```
 
 ```javascript
 import axios from 'axios';
