@@ -11,9 +11,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.
 
-## Missing Firebase endhook
+## Missing Firebase endpoint
 
-Will need to create own on [Google Firebase](https://firebase.google.com/) and add a File called axios.js (under a newly created Folder in src)
+Will need to create own on [Google Firebase Realtime DB endpoint](https://firebase.google.com/) and add it to a File called axios.js (under a newly created Folder in src)
 
 ```
 src
