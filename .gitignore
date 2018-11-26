@@ -24,4 +24,5 @@ yarn-error.log*
 .vscode
 
 node_modules/
-axios.js*
+axios.js
+.json

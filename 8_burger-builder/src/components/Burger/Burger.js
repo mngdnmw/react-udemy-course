@@ -3,6 +3,9 @@ import classes from "./Burger.css";
 import BurgerIngredient from "./BurgerIngredient/BurgerIngredient";
 //import { withRouter } from "react-router-dom";
 class Burger extends Component {
+  componentDidMount() {
+    console.log("[BurgerComponent]",this.props);
+  }
   render() {
     //Way to transform an object of key value pairs to an array of burger ingredients
     //where the keys are the types of ingredients
